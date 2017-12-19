@@ -26,7 +26,7 @@ var maxlistenerCount= event.getMaxListeners();
 console.log(maxlistenerCount);
 
 // 获取指定的事件的监视器个数
-console.log(events.listenerCount(event,'connect'));
+console.log(events.EventEmitter.listenerCount(event,'connect'));
 // 发送事件
 event.emit('connect');
 console.log('程序执行完毕。');
