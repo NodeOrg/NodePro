@@ -1,4 +1,10 @@
-let buffer1 = new Buffer('ABCD');
-let buffer2 = new Buffer(4);
-let result  = buffer1.copy(buffer2);
-console.log(buffer2.toString()); 
+/*
+ * @Author: dyh 
+ * @Date: 2017-12-20 17:34:21 
+ * @Last Modified by: dyh
+ * @Last Modified time: 2017-12-20 17:40:58
+ */
+let buffer1 = Buffer.from('ABCD');
+let buffer2 = Buffer.from("4");
+buffer2.copy(buffer1,2);
+console.log(buffer1.toString());

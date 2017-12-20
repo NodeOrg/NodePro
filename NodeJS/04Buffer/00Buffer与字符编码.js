@@ -1,8 +1,8 @@
 /*
  * @Author: dyh 
  * @Date: 2017-12-20 16:55:07 
- * @Last Modified by:   dyh 
- * @Last Modified time: 2017-12-20 16:55:07 
+ * @Last Modified by: dyh
+ * @Last Modified time: 2017-12-20 17:43:20
  */
 
 const buffer = Buffer.from("nodejs测试", "ascii");
