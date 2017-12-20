@@ -1,4 +1,4 @@
-let buffer1=new Buffer('www.baidu.com');
+let buffer1 = new Buffer('www.baidu.com');
 let buffer2 = new Buffer('百度');
 let result  = buffer1.compare(buffer2);
 
