@@ -1,9 +1,9 @@
 let data='';
-let fs=require('fs');
-let stream=fs.createReadStream('input.txt');// D://worktest/nodejs/05Stream/input.txt
+let fs     = require('fs');
+let stream = fs.createReadStream('input.txt');  // D://worktest/nodejs/05Stream/input.txt
 stream.setEncoding('UTF8');
 stream.addListener('data',function(chunk){
-    data+=chunk;
+    data += chunk;
 });
 stream.on('end',function(){
     //let model={Result:true,Msg:'OK',data:data};

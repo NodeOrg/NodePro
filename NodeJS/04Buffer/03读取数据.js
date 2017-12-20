@@ -1,6 +1,6 @@
 let buffer=new Buffer(26);
 for (var index = 0; index < buffer.length; index++) {
-    buffer[index]=index+97;
+    buffer[index] = index+97;
 }
 console.log('写入缓冲区字节：'+buffer.length);
 console.log('数据：'+buffer.toString('ascii'));
