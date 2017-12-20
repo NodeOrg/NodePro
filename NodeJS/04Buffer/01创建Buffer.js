@@ -7,4 +7,3 @@ console.log('写入字节数：'+buffer2.length);
 
 var buffer3 = new Buffer('www.baidu.com','utf-8');
 console.log('写入字节数：'+buffer3.length);
-

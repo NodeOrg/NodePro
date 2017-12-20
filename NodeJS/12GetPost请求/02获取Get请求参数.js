@@ -2,7 +2,7 @@ let http=require('http'),url=require('url');
 http.createServer(function(req,res){
     res.writeHead(200,{'Content-Type':'text/plain'})
     // 解析url
-    var params=url.parse(req.url,true).query;
+    var params = url.parse(req.url,true).query;
     res.write('Id:'+params.Id);
     res.write('\n');
     res.write('name:'+params.name);
