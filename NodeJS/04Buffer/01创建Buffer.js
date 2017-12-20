@@ -6,4 +6,4 @@ var buffer2 = new Buffer([10, 20, 30, 40, 50]);
 console.log('写入字节数：'+buffer2.length);
 
 var buffer3 = new Buffer('www.baidu.com','utf-8');
-console.log('写入字节数：'+buffer3.length);
+console.log('写入字节数：'+buffer3.length); 
