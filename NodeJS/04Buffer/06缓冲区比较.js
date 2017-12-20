@@ -1,8 +1,8 @@
 /*
  * @Author: dyh 
  * @Date: 2017-12-20 17:31:30 
- * @Last Modified by:   dyh 
- * @Last Modified time: 2017-12-20 17:31:30 
+ * @Last Modified by: dyh
+ * @Last Modified time: 2017-12-20 21:10:57
  */
 let buffer1 = Buffer.from('www.baidu.com');
 let buffer2 = Buffer.from('百度');

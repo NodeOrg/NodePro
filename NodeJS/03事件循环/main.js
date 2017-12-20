@@ -1,19 +1,20 @@
 const events = require('events');
-let event          = new events.EventEmitter();
-var connectHandler = function () {
+let event = new events.EventEmitter();
+const events = require('events');
+var connectHandler = function() {
     console.log('连接成功！');
     event.emit('receive');
 }
 event.on('connect', connectHandler);
 
-var received = function () {
+var received = function() {
     console.log('数据接收完毕！');
 }
 event.on("receive", received);
 
 // 获取绑定到对象的事件名称
 var arr = event.eventNames();
-arr.map(function (val, index, arr) {
+arr.map(function(val, index, arr) {
     console.log(val);
 })
 

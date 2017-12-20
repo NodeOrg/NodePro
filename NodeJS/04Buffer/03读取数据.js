@@ -2,7 +2,7 @@
  * @Author: dyh 
  * @Date: 2017-12-20 17:21:20 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-20 17:22:44
+ * @Last Modified time: 2017-12-20 21:10:27
  */
 let buffer = Buffer.alloc(26);
 for (var index = 0; index < buffer.length; index++) {
