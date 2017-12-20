@@ -2,8 +2,8 @@
  * @Author            : dyh
  * @Date              : 2017-12-20 14: 39: 33
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-12-20 15:08:12
+ * @Last Modified time: 2017-12-20 15:14:19
  */
 const buffer = Buffer.from("nodejs测试", "ascii");
 let data = buffer.toString("hex");
-console.log("Encoding-hex：" + data);
+console.log("Encoding-hex：" + data); 
