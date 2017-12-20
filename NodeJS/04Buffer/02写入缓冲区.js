@@ -2,7 +2,7 @@
  * @Author: dyh 
  * @Date: 2017-12-20 16:56:03 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-20 17:58:38
+ * @Last Modified time: 2017-12-20 17:59:55
  */
 let buffer = Buffer.alloc(128);
 let length = buffer.write('明月松间照', 0, buffer.length, 'utf8');

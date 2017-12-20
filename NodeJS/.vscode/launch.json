@@ -8,7 +8,7 @@
             "type"   : "node",
             "request": "launch",
             "name"   : "Launch Program",
-            "program": "${workspaceFolder}/11文件系统/01异步同步.js"
+            "program": "${workspaceFolder}/05Stream/01read.js"
         }
     ]
 }
