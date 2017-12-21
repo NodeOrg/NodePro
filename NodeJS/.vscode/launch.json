@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/10常用工具/04isRegExp.js"
+            "program": "${workspaceFolder}/11文件系统/11读取目录.js"
         }
     ]
 }
