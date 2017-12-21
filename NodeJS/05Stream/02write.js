@@ -2,7 +2,7 @@
  * @Author: dyh 
  * @Date: 2017-12-21 10:26:45 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-21 10:30:01
+ * @Last Modified time: 2017-12-21 11:38:27
  */
 let fs=require('fs');
 let stream = fs.createWriteStream('05Stream/output.txt');
