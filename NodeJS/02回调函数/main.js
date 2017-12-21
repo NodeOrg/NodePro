@@ -1,6 +1,6 @@
 var fs = require("fs");
 // 阻塞代码示例
-var data = fs.readFileSync('input.txt');
+var data = fs.readFileSync('/02回调函数/input.txt');
 console.log(data.toString());
 
 // 非阻塞代码示例

@@ -1,5 +1,11 @@
+/*
+ * @Author: dyh 
+ * @Date: 2017-12-21 10:26:45 
+ * @Last Modified by: dyh
+ * @Last Modified time: 2017-12-21 10:30:01
+ */
 let fs=require('fs');
-let stream = fs.createWriteStream('output.txt');
+let stream = fs.createWriteStream('05Stream/output.txt');
 let data   = '风儿从那二月南方来';
 stream.write(data,'UTF8');
 stream.end();
