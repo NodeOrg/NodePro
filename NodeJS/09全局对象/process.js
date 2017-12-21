@@ -9,7 +9,6 @@ process.on('exit', function(code) {
 });
 console.log("程序执行结束");
 
-
 console.log('\n--------------------stdout--------------------------')
 process.stdout.write('Hello World\n');
 
