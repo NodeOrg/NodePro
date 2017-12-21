@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/06模块系统/04linked.js"
+            "program": "${workspaceFolder}/08路由/main.js"
         }
     ]
 }
