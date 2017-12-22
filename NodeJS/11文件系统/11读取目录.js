@@ -2,7 +2,7 @@
  * @Author: dyh 
  * @Date: 2017-12-21 16:07:40 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-21 16:10:09
+ * @Last Modified time: 2017-12-21 16:34:53
  */
 let fs = require('fs'),
     util = require('util');
@@ -10,7 +10,6 @@ fs.readdir('./11文件系统/test/', function (err, files) {
     if (err) {
         return console.error(err);
     }
-
     files.forEach(function (value, index, array) {
         fs.stat('./11文件系统/test/' + value, function (err, stats) {
             if (err) {

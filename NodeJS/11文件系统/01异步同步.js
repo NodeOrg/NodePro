@@ -2,7 +2,7 @@
  * @Author: dyh 
  * @Date: 2017-12-21 15:20:25 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-21 15:21:13
+ * @Last Modified time: 2017-12-21 16:16:48
  */
 let fs=require('fs'),util=require('util');
 console.time('同步');
