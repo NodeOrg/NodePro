@@ -1,3 +1,9 @@
+/*
+ * @Author: dyh 
+ * @Date: 2017-12-22 13:47:22 
+ * @Last Modified by: dyh
+ * @Last Modified time: 2017-12-22 13:54:56
+ */
 let http = require('http');
 let querystring = require('querystring');
 let util = require('util');
@@ -12,15 +18,17 @@ var postHTML =
     '</form>' +
     '</body></html>';
 
-http.createServer(function(request, response) {
+http.createServer(function (request, response) {
     let body = '';
-    request.on('data', function(chunk) {
+    request.on('data', function (chunk) {
         body += chunk;
     });
-    request.on('end', function() {
+    request.on('end', function () {
         body = querystring.parse(body);
         // 设置响应头部信息及编码
-        response.writeHead(200, { 'Content-Type': 'text/html; charset=utf8' });
+        response.writeHead(200, {
+            'Content-Type': 'text/html; charset=utf8'
+        });
         if (body.Id && body.name) { // 输出提交的数据
             response.write("Id:" + body.Id);
             response.write("<br>");

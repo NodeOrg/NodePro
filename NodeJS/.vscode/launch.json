@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/12GetPost请求/01获取Get请求内容.js"
+            "program": "${workspaceFolder}/12GetPost请求/03获取Post请求内容.js"
         }
     ]
 }
