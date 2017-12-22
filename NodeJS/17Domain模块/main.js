@@ -1,8 +1,8 @@
 /*
  * @Author: dyh 
  * @Date: 2017-12-22 15:12:49 
- * @Last Modified by:   dyh 
- * @Last Modified time: 2017-12-22 15:12:49 
+ * @Last Modified by: dyh
+ * @Last Modified time: 2017-12-22 16:21:38
  */
 const domain = require('domain'),
     eventEmitter = require('events').EventEmitter;
@@ -11,6 +11,7 @@ const domain1 = domain.create();
 domain1.on('error', function (err) {
     console.log("domain1 处理这个错误 (" + err.message + ")");
 });
+
 // 显式绑定
 domain1.add(emitter1);
 emitter1.on('error', function (err) {
