@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/15Net模块/client.js"
+            "program": "${workspaceFolder}/17Domain模块/main.js"
         }
     ]
 }
