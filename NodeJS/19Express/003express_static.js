@@ -6,7 +6,7 @@ app.use(express.static('19Express/public')); //http://127.0.0.1:8081/images/1.jp
 app.use('/static', express.static('19Express/public')); //访问http://127.0.0.1:8081/static/files/1.txt
 
 app.get('/', function (req, res) {
-    res.send('Hello World');
+    res.send('Hello World'+__dirname);
 })
 
 var server = app.listen(8081, function () {
