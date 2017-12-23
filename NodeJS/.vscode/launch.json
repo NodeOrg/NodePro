@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/19Express/express_demo3.js"
+            "program": "${workspaceFolder}/19Express/003express_static.js"
         }
     ]
 }

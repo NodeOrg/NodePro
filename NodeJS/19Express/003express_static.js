@@ -1,7 +1,9 @@
 let express = require('express');
 let app = express();
 
-app.use(express.static('public'));
+// 托管静态资源文件
+app.use(express.static('19Express/public')); //http://127.0.0.1:8081/images/1.jpg
+app.use('/static', express.static('19Express/public')); //访问http://127.0.0.1:8081/static/files/1.txt
 
 app.get('/', function (req, res) {
     res.send('Hello World');
