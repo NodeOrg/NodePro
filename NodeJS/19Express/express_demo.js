@@ -1,8 +1,7 @@
 let express = require('express');
 let app = express();
 app.get('/', function (request, response) {
-    var ssss=request.app;
-    response.send('Hello World!' + '\r\n' + request.path);
+    response.send('Hello World!\r\n' );
 })
 
 let server = app.listen(8081, function () {
