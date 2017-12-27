@@ -8,10 +8,12 @@ const connection = mysql.createConnection({
     multipleStatements: true // 是否允许一个query中有多个MySQL语句 （默认：false）
 });
 
+connection.connect();
+
 let addSql = 'INSERT INTO websites(Id,name,url,alexa,country) VALUES(0,?,?,?,?)';
 let addSqlParams = ['菜鸟工具', 'https://c.runoob.com', '23453', 'CN'];
 //增
-connection.query(addSql, addSqlParams, function (err, results, fields) {
+connection.query(addSql, addSqlParams, function(err, results, fields) {
     if (err) {
         console.log('[INSERT ERROR] - ', err.message);
         return;
