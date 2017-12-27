@@ -30,7 +30,7 @@ connection.connect();
 
 var sql = 'SELECT * FROM websites';
 //查
-connection.query(sql, function (err, results, fields) {
+connection.query(sql, function(err, results, fields) {
     if (err) {
         console.log('[SELECT ERROR] - ', err.message);
         return;

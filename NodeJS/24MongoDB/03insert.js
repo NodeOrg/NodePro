@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/runoob'; //# 数据库为 runoob
-/*
-MongoClient.connect(url, function (err, db) {
+
+MongoClient.connect(url, function(err, db) {
     if (err) {
         console.error(err);
         return;
@@ -19,7 +19,7 @@ MongoClient.connect(url, function (err, db) {
         "name": "菜鸟工具",
         "url": "c.runoob.com"
     }];
-    collction.insert(data, function (err, result) {
+    collction.insert(data, function(err, result) {
         if (err) {
             console.error(err);
             return;
@@ -28,7 +28,8 @@ MongoClient.connect(url, function (err, db) {
         db.close();
     });
 })
-*/
+
+/*
 
 let insertData=function(db, callback) {
     let collection = db.collection('student');
@@ -58,3 +59,4 @@ MongoClient.connect(url, function (err, db) {
         db.close();
     });
 })
+*/
