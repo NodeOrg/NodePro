@@ -2,7 +2,7 @@
  * @Author: dyh 
  * @Date: 2017-12-27 22:59:22 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-27 23:00:53
+ * @Last Modified time: 2018-03-05 10:55:12
  */
 const mongoClient = require('mongodb').MongoClient;
 let url = 'mongodb://localhost:27017/runoob';
@@ -23,7 +23,7 @@ function updateData(db, callback) {
     let whereStr = { "name": "Elena" };
     let updateStr = { $set: { "age": 25 } };
     collection.update(whereStr, updateStr, function(err, result) {
-        if (err) {
+        if (err) { 
             console.error(err);
             return;
         }
