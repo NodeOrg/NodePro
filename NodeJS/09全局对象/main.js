@@ -2,19 +2,19 @@
  * @Author: dyh 
  * @Date: 2017-12-21 14:58:11 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-21 15:08:01
+ * @Last Modified time: 2018-03-18 16:36:34
  */
 console.log(__filename);
 console.log(__dirname);
 console.time('Time');
-let time = global.setTimeout(function () {
+let time = global.setTimeout(function() {
     console.log('setTimeout');
     console.trace();
 }, 2000);
 
 //clearTimeout(time);
 
-let interval = global.setInterval(function () {
+let interval = global.setInterval(function() {
     console.log('setInterval');
 }, 1000);
 
@@ -41,7 +41,6 @@ console.time("获取数据");
 // 
 for (var index = 0; index < 1000; index++) {
     var element = index;
-
 }
 console.timeEnd('获取数据');
 

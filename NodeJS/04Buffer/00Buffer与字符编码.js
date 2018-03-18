@@ -1,9 +1,10 @@
 /*
  * @Author: dyh 
- * @Date: 2017-12-20 16:55:07 
+ * @Date: 2018-03-18 15:59:19 
  * @Last Modified by: dyh
- * @Last Modified time: 2017-12-20 17:43:20
+ * @Last Modified time: 2018-03-18 16:00:16
  */
+
 
 const buffer = Buffer.from("nodejs测试", "ascii");
 let data = buffer.toString("hex");
