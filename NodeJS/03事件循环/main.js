@@ -1,6 +1,5 @@
 const events = require('events');
 let event = new events.EventEmitter();
-const events = require('events');
 var connectHandler = function() {
     console.log('连接成功！');
     event.emit('receive');

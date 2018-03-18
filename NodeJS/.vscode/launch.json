@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/24MongoDB/06delete.js"
+            "program": "${workspaceFolder}/03事件循环/main.js"
         }
     ]
 }

@@ -1,11 +1,11 @@
 var fs = require("fs");
 // 阻塞代码示例
-var data = fs.readFileSync('/02回调函数/input.txt');
+var data = fs.readFileSync('D:\\Work\\NodeJS\\trunk\\NodeJS\\02回调函数\\input.txt');
 console.log(data.toString());
 // 非阻塞代码示例
-fs.readFile("input.txt", function(error, data) {
+fs.readFile("D:\\Work\\NodeJS\\trunk\\NodeJS\\02回调函数\\input.txt", function(error, data) {
     if (error) {
-        return console.log(err);
+        return console.log(error);
     }
     console.log("readFile:" + data.toString());
 });
