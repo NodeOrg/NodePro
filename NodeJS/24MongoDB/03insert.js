@@ -3,6 +3,22 @@ var url = 'mongodb://localhost:27017/runoob'; //# 数据库为 runoob
 
 MongoClient.connect(url, function(err, db) {
     if (err) {
+        throw err;
+    }
+    var dbase = db.db("runoob");
+    var obj = { name: "七天网络", url: "www.7ent.cc" };
+    dbase.collection("site").insertOne(obj, function(err, res) {
+        if (err) {
+            throw err;
+        }
+        console.log("文档插入完毕");
+        db.close();
+    })
+})
+
+/*
+MongoClient.connect(url, function(err, db) {
+    if (err) {
         console.error(err);
         return;
     }
@@ -28,6 +44,7 @@ MongoClient.connect(url, function(err, db) {
         db.close();
     });
 })
+*/
 
 /*
 
