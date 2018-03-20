@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/24MongoDB/03insert.js"
+            "program": "${workspaceFolder}/25Assert/14throws.js"
         }
     ]
 }
